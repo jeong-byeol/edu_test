@@ -1,0 +1,29 @@
+{
+  "name": "javascript-koans",
+  "version": "1.0.0",
+  "description": "JavaScript Koans",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha test/index.test.js",
+    "report": "mocha test/index.test.js --timeout 50000 --exit --sort --reporter @mochajs/json-file-reporter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Insu-Lee/javascript-koans"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Insu-Lee/javascript-koans"
+  },
+  "homepage": "https://github.com/Insu-Lee/javascript-koans",
+  "dependencies": {},
+  "devDependencies": {
+    "@mochajs/json-file-reporter": "^1.3.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
