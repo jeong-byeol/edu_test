@@ -88,33 +88,36 @@
 // console.log(newinfos);
 // --------------
 
-function makeCalculator() {
-  let displayValue = 0;
+// function makeCalculator() {
+//   let displayValue = 0;
 
-  return {
-    add: function(num) {
-      displayValue = displayValue + num;
-    },
-    subtract: function(num) {
-      displayValue = displayValue - num;
-    },
-    multiply: function(num) {
-      displayValue = displayValue * num;
-    },
-    divide: function(num) {
-      displayValue = displayValue / num;
-    },
-    reset: function() {
-      displayValue = 0;
-    },
-    display: function() {
-      return displayValue
-    }
-  }
-}
+//   return {
+//     add: function(num) {
+//       displayValue = displayValue + num;
+//     },
+//     subtract: function(num) {
+//       displayValue = displayValue - num;
+//     },
+//     multiply: function(num) {
+//       displayValue = displayValue * num;
+//     },
+//     divide: function(num) {
+//       displayValue = displayValue / num;
+//     },
+//     reset: function() {
+//       displayValue = 0;
+//     },
+//     display: function() {
+//       return displayValue
+//     }
+//   }
+// }
 
-const cal = makeCalculator();
-console.log(cal.display()); // 0
-cal.add(1);
-console.log(cal.display()); // 1
-//console.log(displayValue) // ReferenceError: displayValue is not defined
+// const cal = makeCalculator();
+// console.log(cal.display()); // 0
+// cal.add(1);
+// console.log(cal.display()); // 1
+// //console.log(displayValue) // ReferenceError: displayValue is not defined
+// -------------
+
+
