@@ -20,8 +20,8 @@ function add5(num) {
 }
 
 
-let output = pipe(add5, square);  //output(4) = pipe(add5, square)(4)
-console.log(output(4)); // --> 81 
+// let output = pipe(add5, square);  //output(4) = pipe(add5, square)(4)
+// console.log(output(4)); // --> 81 
 
 // 1. map
 function getLengthOfElements(arr) {
@@ -30,8 +30,8 @@ function getLengthOfElements(arr) {
   })
 }
 
-let output = getLengthOfElements(['', 'a', 'ab', 'abc']);
-console.log(output); // --> [0, 1, 2, 3]
+// let output = getLengthOfElements(['', 'a', 'ab', 'abc']);
+// console.log(output); // --> [0, 1, 2, 3]
 
 getLengthOfElements(['hello', 'rocket', 'boost']);
 console.log(output); // --> [5, 6, 5]
