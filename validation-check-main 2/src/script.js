@@ -8,7 +8,7 @@ let elpasswordretype = document.querySelector('#password-retype');
 let elmismatchMessage = document.querySelector('.mismatch-message');
 
 elInputUsername.onkeyup = function () {
-	if (isMoreThan4Length(elInputUsername.value)) {
+	if (isMoreThan4Length(elInputUsername.value) && elInputUsername.value.includes('@') && elInputUsername.value.includes('.com') ) {
 		  // 아이디의 길이가 4와 같거나 길면 성공
 		  elSuccessMessage.classList.remove('hide'); 
 		  elFailureMessage.classList.add('hide');
