@@ -1,0 +1,44 @@
+{
+  "name": "beesbeesbees",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/**/*.js",
+    "report": "mocha test/**/*.js --reporter @mochajs/json-file-reporter"
+  },
+  "lint-staged": {
+    "linters": {
+      "*.js": [
+        "eslint",
+        "git add"
+      ]
+    },
+    "ignore": [
+      "node_modules/",
+      "**/test/*.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Insu-Lee/beesbeesbees"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Insu-Lee/beesbeesbees"
+  },
+  "homepage": "https://github.com/Insu-Lee/beesbeesbees#readme",
+  "dependencies": {
+    "package": "^1.0.1"
+  },
+  "devDependencies": {
+    "@mochajs/json-file-reporter": "^1.3.0",
+    "chai": "^4.1.2",
+    "mocha": "^8.2.0",
+    "underscore": "^1.9.1"
+  }
+}
