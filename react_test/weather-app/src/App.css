@@ -1,0 +1,47 @@
+/* 전체 배경 및 기본 레이아웃 */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to top, #a1c4fd, #c2e9fb);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 앱 메인 박스 */
+div {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  text-align: center;
+  
+}
+
+/* 헤더 */
+h1 {
+  margin-bottom: 1rem;
+  color: #333;
+  
+}
+
+/* 날씨 정보 박스 */
+section {
+  margin-top: 1.5rem;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #222;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+
